@@ -1,6 +1,5 @@
 `credentials.json`
   	- This file contains authentication credentials for the Google's API `Google Spreadsheets`.
-   
     
 `financial.py`
  	 - This file contains python code that will take data from the `sample_data.xlsx` to the `Google Spreadsheets`.

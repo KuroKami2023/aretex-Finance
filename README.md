@@ -11,7 +11,7 @@
    
     
 `token.json`
-	  - This file containes access/authentication of users who are `authorized` to use the Google Spreadsheets.
+	- This file containes access/authentication of users who are `authorized` to use the Google Spreadsheets.
    
 
 `link to Google Spreadsheets`

@@ -27,7 +27,7 @@ month_index = find_row_index('MONTH')
 
 # Date
 month_row = df.iloc[month_index]
-formatted_month = month_row.iloc[19].strftime('%Y-%m-%d')
+formatted_month = month_row.iloc[19].strftime("%d %b, %Y")
 
 # Assets
 total_assets_row = df.iloc[total_assets_index]

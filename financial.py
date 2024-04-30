@@ -9,7 +9,7 @@ from googleapiclient.errors import HttpError
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
-SPREADSHEET_ID = "1i5eUPdxRXW40Du8_DnnvqOMs0kSXcW_bdyRn0c0kLos"
+SPREADSHEET_ID = "1Q6vPAovgHOffrr8uQDawW7M59wFNV14kI9eltW8P8RA"
 
 # Excel file
 df = pd.read_excel('sample_data.xlsx', sheet_name='Financials')
@@ -69,9 +69,9 @@ def main():
             total_equity = total_equity_row.iloc[11]
 
             values = [
-                [month, "Total Assets", total_assets],
-                [month, "Total Liabilities", total_liabilities],
-                [month, "Total Equity", total_equity]
+                [month, "Total Assets", "", total_assets],
+                [month, "Total Liabilities", "", total_liabilities],
+                [month, "Total Equity", "", total_equity]
             ]
 
             body = {
